@@ -12,7 +12,9 @@
         }
 ```
 Retorna o erro :
+```
 incomparable types: boolean and int if(true == 0)
+```
 _____________________________________________________________________________________________________
 * Capacidade dos tipos : 
 
