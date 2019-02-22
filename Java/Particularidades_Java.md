@@ -13,8 +13,13 @@
 ```
 Retorna o erro :
 ```
-incomparable types: boolean and int if(true == 0)
+ error: incomparable types: boolean and int
+                if(true == 0){
+                        ^
+error: incomparable types: boolean and int
+                else if (true == 1){
 ```
+Portanto, true não é nem 0, nem 1, e sim true. 
 _____________________________________________________________________________________________________
 * Capacidade dos tipos : 
 
