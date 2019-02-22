@@ -217,12 +217,14 @@ public class MyClass {
 ```
 
 Tem como saída
-
+```
 a+1 eh igual a 89
 b++ eh igual a X
 ++c eh igual a Y
 d incrementado antes eh igual a Y
-e+1 castado eh igual a  
+e+1 castado eh igual a  Y 
+```
+
 
 **Exemplo 2 :** 
 ```java	
