@@ -246,7 +246,7 @@ error: incompatible types: possible lossy conversion from int to byte
              ^
 1 error;
 ```
-**c é convertido em int durante a operação c = c*c. Já ao se transformar em int, b * b não consegue ser automaticamente castado de volta para byte, afinal, a classe de destino (byte) é menor que a classe de origem (int)**. Portanto, o compilador gera o erro, e não compila. b não é convertido em int pois é double, apenas bytes, shorts e chars o são. 
+**c é convertido em int durante a operação c = c*c. AJá ao se transformar em int, c * c não consegue ser automaticamente castado de volta para byte, afinal, a classe de destino (byte) é menor que a classe de origem (int)**. Portanto, o compilador gera o erro, e não compila. b não é convertido em int pois é double, apenas bytes, shorts e chars o são. 
 
 ```java 
 public class MyClass {
