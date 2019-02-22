@@ -192,7 +192,7 @@ ________________________________________________________________________________
 		** ++, +=, neste sentido, não contam como expressões binárias e não acarretam em casting automático
 
   
-Além disso, **Java apenas realiza castings automáticos se as classes forem compatíveis, bem como se o número na classe de origem couber, sem degenerações, na classe de destino**. Por exemplo, **é possível armazenar um int em um float, pois float possui a mesma memória (4 bytes) e é capaz de armazenar TODO o conteúdo do int. Mas não é possível armazenar um float em um int, pois não há especificação padrão para armazenar as casas decimais do float no int. **
+Além disso, **Java apenas realiza castings automáticos se as classes forem compatíveis, bem como se o número na classe de origem couber, sem degenerações, na classe de destino**. Por exemplo, **é possível armazenar um int em um float, pois float possui a mesma memória (4 bytes) e é capaz de armazenar TODO o conteúdo do int. Mas não é possível armazenar um float em um int, pois não há especificação padrão para armazenar as casas decimais do float no int.**
 
 
 Exemplo 1 : 
