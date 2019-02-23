@@ -211,10 +211,10 @@ public class MyClass {
         char d = 'X' + 1;
         char e = 'X';
         
-        System.out.println("a+1 eh igual a " +  (a+1));    //Nesta expressão, o char é castado para int pois foi utilizado o operador +
-        System.out.println("b++ eh igual a " +  (b++));  	// ++ não conta como operador binário. B continua char. 
-        System.out.println("++c eh igual a " +  (++c)); 		// Idem ao acima. Mas com o operador utilizado antes do char. 
-        System.out.println("d incrementado antes eh igual a " +  (d)); // d foi somado com +  em OUTRA expressão. Ainda é char. 
+        System.out.println("a+1 eh igual a " +  (a+1));    		 // a é castado para int (Durante esta expressão, apenas) pois foi utilizado o operador + binário.
+        System.out.println("b++ eh igual a " +  (b++));  		 // ++ não é operador binário. B continua char. 
+        System.out.println("++c eh igual a " +  (++c)); 		 // Idem ao acima. Mas com o operador prefixado. 
+        System.out.println("d incrementado antes eh igual a " +  (d));	 // d foi somado com +  em OUTRA expressão anterior. Continua sendo char no resto do programa. 
         System.out.println("e+1 castado eh igual a  " + (char) (e+1));	 //casting força a conversão para cast. 
         
     }
