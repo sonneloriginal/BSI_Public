@@ -1,4 +1,46 @@
-* Possui tipo boolean, que retorna true/false. boolean x = (3 > 4) retorna false. Int e boolean são incompatíveis. Não confundir boolean com o objeto Boolean, que será estudado mais a frente. 
+* Java possui tipos primitivos e objetos. Tipos primitivos não são parâmetros ideais de métodos. 
+
+As variáveis dos tipos byte, char, short, int, long, float e double são inicializadas como 0, boolean como false. São tipos primitivos.
+
+```
+int y = 100;
+Integer x = 1000;
+```
+
+Diferem na medida em que x é um Objeto, que possui como vantagem ser referenciado. 
+
+Java trabalha com métodos (Semelhantes às funções de C), aos quais Objetos são os parâmetros (referenciados) por padrão.
+Isso significa que, ao ser passado como argumento de um método,**Integer x = 100 pode ser modificado e esta modificação é visível
+ao se finalizar o método. O mesmo não ocorre por padrão com y = 100. ***
+
+Entretanto, há muitas situações onde é interessante utilizar tipos primitivos. 
+
+```
+       public class MyClass {
+           public static void main(String args[]){
+            Integer a = 1000;
+            Integer b = 1000;
+            if( x==y ){
+            System.out.println("true"); 
+            }
+            else System.out.println("false");
+        }
+       }
+      
+```
+
+imprime 
+```
+false
+```
+
+**Já que Integer a e Integer b são referências/Objetos e não de fato o número 1000. **
+
+Este é um assunto complexo que será estudado com aprofundamento em POO, mas é interessante estar ciente da diferença. 
+
+
+* boolean retorna true/false. boolean x = (3 > 4) retorna false. Int e boolean são incompatíveis.
+
 ```java
         public class MyClass {
             public static void main(String args[]) {
