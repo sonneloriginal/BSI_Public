@@ -1,4 +1,4 @@
-* Java possui tipos primitivos e objetos. Tipos primitivos não são alterador por métodos ao serem passados como argumentos. Já objetos, sim. 
+* Java possui tipos primitivos e objetos. Tipos primitivos não são alterados por métodos ao serem passados como argumentos. Já objetos, sim. 
 
 As variáveis dos tipos byte, char, short, int, long, float e double são inicializadas como 0, boolean como false. São tipos primitivos.
 
