@@ -34,7 +34,7 @@ imprime
 false
 ```
 
-**Já que Integer a e Integer b são referências/Objetos e não de fato o número 1000. **
+**Já que Integer a e Integer b são referências/Objetos e não de fato o número 1000.**
 
 Este é um assunto complexo que será estudado com aprofundamento em POO, mas é interessante estar ciente da diferença. 
 
