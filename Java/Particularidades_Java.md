@@ -11,7 +11,7 @@ Diferem na medida em que x é um Objeto, que possui como vantagem ser referencia
 
 Java trabalha com métodos (Semelhantes às funções de C), aos quais Objetos são os parâmetros (referenciados) por padrão.
 Isso significa que, ao ser passado como argumento de um método,**Integer x = 100 pode ser modificado e esta modificação é visível
-ao se finalizar o método. O mesmo não ocorre por padrão com y = 100. **
+ao se finalizar o método. O mesmo não ocorre por padrão com y = 100.**
 
 Entretanto, há muitas situações onde é interessante utilizar tipos primitivos. 
 
