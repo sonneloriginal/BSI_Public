@@ -20,7 +20,7 @@ Entretanto, há muitas situações onde é interessante utilizar tipos primitivo
            public static void main(String args[]){
             Integer a = 1000;
             Integer b = 1000;
-            if( x==y ){
+            if(a==b){
             System.out.println("true"); 
             }
             else System.out.println("false");
