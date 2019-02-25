@@ -1,5 +1,5 @@
 
-* boolean retorna true/false. boolean x = (3 > 4) retorna false. Int e boolean são incompatíveis.
+* Possui tipo boolean, que retorna true/false. boolean x = (3 > 4) retorna false. Int e boolean são incompatíveis.
 
 ```java
         public class MyClass {
