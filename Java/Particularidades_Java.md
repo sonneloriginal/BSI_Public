@@ -298,6 +298,4 @@ public class MyClass {
 
 
 
-
-
 throws java.io.IOException  É uma cláusula que trata possíveis erros de entrada, sendo necessária para System.in.read() funcionar. Explicação de cláusulas serão dadas (muito) mais a frente.
